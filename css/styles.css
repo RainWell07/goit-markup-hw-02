@@ -65,6 +65,7 @@ height: 51px;
 left: 647px;
 top: 392px;
 margin-bottom: 48px;
+cursor: pointer
 }
 
 .navigation{
@@ -101,11 +102,10 @@ color: #FFFFFF;
 ul {
     list-style: none;
 }
-
 /* HEADER END */
 
 
-/* First Section */
+/* MAIN INFO*/
 .hero {
 font-family: 'Roboto-bold';
 font-size: 20px;
@@ -150,6 +150,7 @@ color: #E7E9FC;
 }
 .portfolio-btn {
     font-family: 'Roboto-regular';
+    cursor: pointer;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
@@ -161,7 +162,7 @@ color: #E7E9FC;
     order: 0;
     flex-grow: 0;
     display: flex;
-
+    
 flex-direction: row;
 justify-content: center;
 align-items: center;
