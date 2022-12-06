@@ -60,10 +60,6 @@ background-color: #4D5AE5;
 border: none;
 text-align: center;
 text-align-last: center;
-width: 170px;
-height: 51px;
-left: 647px;
-top: 392px;
 margin-bottom: 48px;
 cursor: pointer
 }
@@ -87,9 +83,8 @@ text-decoration: none;
 .heading {
 font-family:"Roboto-bold";  
 font-size: 56px;
-line-height: 1.0;
+line-height: 1.07;
 background-color: #2E2F42 ;
-
 text-align: center;
 letter-spacing: 0.02em;
 
@@ -159,22 +154,17 @@ color: #E7E9FC;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     flex: none;
-    order: 0;
+    order: 3;
     flex-grow: 0;
     display: flex;
-    
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 8px 16px;
-width: 69px;
-height: 2.1;
-background: #F4F4FD;
-border: 1px solid #E7E9FC;
-border-radius: 4px;
-flex: none;
-order: 3;
-flex-grow: 0;
+    border:none;
+    padding: 8px 16px;
+    width: 69px;
+    justify-content: center;
+    padding: 8px 16px;
+    width: 69px;
+    background: #F4F4FD;
+    font-size: 15px;
 
 }
 .footer {
@@ -196,8 +186,4 @@ font-family: 'Roboto-regular';
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-width: 296px;
-height: 96px;
-left: 32px;
-top: 40px;
 }
