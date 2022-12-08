@@ -26,6 +26,7 @@
  --title-text-color: #2E2F42;
  --logo-color: #4D5AE5;
 }
+
 a:hover {
     color:  blue
 }
@@ -186,4 +187,7 @@ font-family: 'Roboto-regular';
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+p{
+    margin: 0;
 }
